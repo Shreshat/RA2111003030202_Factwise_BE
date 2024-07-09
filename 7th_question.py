@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 def maxScore(cardPoints, k):
     n = len(cardPoints)
     if k == n:
@@ -33,8 +27,6 @@ cardPoints3 = [9, 7, 7, 9, 7, 7, 9]
 k3 = 7
 print(f"Example 3: Maximum score = {maxScore(cardPoints3, k3)}")
 
-
-# In[ ]:
 
 
 
