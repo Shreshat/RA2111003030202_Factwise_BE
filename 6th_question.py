@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[2]:
 
 
 def number_to_words(n):
@@ -41,8 +38,6 @@ total_letters_used = count_letters_in_numbers_up_to(1000)
 print("Total letters that are used from 1 to 1000:", total_letters_used)
  
 
-
-# In[ ]:
 
 
 
