@@ -1,0 +1,15 @@
+#direct solution (not going to return anything untill given any input)
+def maxScore(cardPoints, k):
+    n = len(cardPoints)
+
+    if k == n:
+        return sum(cardPoints)
+    
+    window_sum = sum(cardPoints[:k])
+    max_sum = window_sum
+    
+    for i in range(k-1, -1, -1):
+        window_sum += cardPoints[n-(k-i)] - cardPoints[i]
+        max_sum = max(max_sum, window_sum)
+    
+    return max_sum
